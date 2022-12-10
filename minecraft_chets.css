@@ -63,4 +63,9 @@ body{
     }  
   }
   
-  
+  html{
+    li {
+      margin-bottom: .5rem;
+    }
+    
+  }
