@@ -1,9 +1,29 @@
 body{
     background-color: rgb(104, 205, 50);
     font-size: xx-large;
-    outline: 8px ridge rgba(219, 96, 20, 0.742);
-  border-radius: 2rem;   
+    outline: thick double #32cece;
+  border-radius: 1%;
   }
+
+
+  blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
   html{
       p {
           animation-duration: 3s;
@@ -42,8 +62,43 @@ body{
   }
   }
   
-  body{
-    .shape {
+    .styled {
+      border: 0;
+      line-height: 2.5;
+      padding: 0 20px;
+      font-size: 1rem;
+      text-align: center;
+      color: #fff;
+      text-shadow: 1px 1px 1px #000;
+      border-radius: 10px;
+      background-color: rgba(220, 0, 0, 1);
+      background-image: linear-gradient(to top left,
+                                        rgba(0, 0, 0, .2),
+                                        rgba(0, 0, 0, .2) 30%,
+                                        rgba(0, 0, 0, 0));
+      box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                  inset -2px -2px 3px rgba(0, 0, 0, .6);
+  }
+  
+  .styled:hover {
+      background-color: rgba(255, 0, 0, 1);
+  }
+  
+  .styled:active {
+      box-shadow: inset -2px -2px 3px rgba(255, 3, 3, 0.6),
+                  inset 2px 2px 3px rgba(0, 0, 0, .6);
+  }
+  
+  
+  
+  html{
+    li {
+      margin-bottom: .5rem;
+    }
+    
+  }
+  
+  .shape {
       padding: 20px;
       margin: 20px;
       border: 10px solid black;
@@ -61,11 +116,3 @@ body{
       Deep interest in all scientific knowledge and new discovery.</p>
   </div>
     }  
-  }
-  
-  html{
-    li {
-      margin-bottom: .5rem;
-    }
-    
-  }
