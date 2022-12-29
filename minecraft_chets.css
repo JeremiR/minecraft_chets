@@ -116,3 +116,9 @@ blockquote p::after {
       Deep interest in all scientific knowledge and new discovery.</p>
   </div>
     }  
+    
+    iframe {
+      border: 1px solid black;
+      width: 100%;
+  }
+  
