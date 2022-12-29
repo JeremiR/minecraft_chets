@@ -121,4 +121,22 @@ blockquote p::after {
       border: 1px solid black;
       width: 100%;
   }
+
+
+
+
+
+  label {
+    display: block;
+    margin-top: 1em;
+}
+
+input:valid {
+    background-color: rgb(114, 250, 114);
+}
+
+input:invalid {
+    background-color: brown;
+}
+
   

@@ -10,3 +10,13 @@ li {
 html{
     background-color: rgb(215, 215, 215);
 }
+
+
+p,
+li {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+p {
+    font-weight: bold;
+}
