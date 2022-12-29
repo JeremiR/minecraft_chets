@@ -1,30 +1,4 @@
-body{
-    background-color: rgb(104, 205, 50);
-    font-size: xx-large;
-    outline: thick double #32cece;
-  border-radius: 1%;
-  }
-
-
-  blockquote {
-    margin: 0;
-}
-
-blockquote p {
-    padding: 15px;
-    background: #eee;
-    border-radius: 5px;
-}
-
-blockquote p::before {
-    content: '\201C';
-}
-
-blockquote p::after {
-    content: '\201D';
-}
-
-  html{
+html{
       p {
           animation-duration: 3s;
           animation-name: slidein;
@@ -50,6 +24,32 @@ blockquote p::after {
         
   }
   
+  body{
+    background-color: rgb(104, 205, 50);
+    font-size: xx-large;
+    outline: thick double #32cece;
+  border-radius: 1%;
+  }
+
+
+  blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
   html{
       .auto-spaced-linear-gradient {
           background: linear-gradient(red, yellow, blue, orange);
@@ -116,7 +116,7 @@ blockquote p::after {
       Deep interest in all scientific knowledge and new discovery.</p>
   </div>
     }  
-    
+
     iframe {
       border: 1px solid black;
       width: 100%;
