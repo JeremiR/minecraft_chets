@@ -100,3 +100,14 @@ $( document.body ).click(function() {
  
 </body>
 </html>
+
+$(document).ready(function() {
+   $('legend').wrapInner('<span></span>'); 
+});
+
+$(document).ready(Function() {
+var requiredFlag = ' * ';
+var codicinalFlag = ' ** ';
+$('form: input')
+
+});

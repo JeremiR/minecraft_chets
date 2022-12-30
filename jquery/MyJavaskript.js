@@ -3,3 +3,6 @@ $(document).ready(function(){
         $(this).replaceWith('<h3>' + $ (this).text() + '</h3>');
     });
 });
+var rquiredFlag = ' * ';
+var codicinalFlag = ' ** ';
+
