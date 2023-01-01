@@ -6,4 +6,4 @@ $(document).ready(function(){
 var requiredFlag = ' * ';
 var codicinalFlag = ' ** ';
 var requiredKey = $('input.required : first') .next('span') .text();
-var codicinalKey
+var codicinalKey = $('input.codicinal : first') .next('span') .text();
